@@ -4,9 +4,39 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
   <script src = "JS/script.js"></script>
-  <title>Main Project</title>
+  <title>Rock, Paper Scissors!</title>
 </head>
 <body>
+  <header>
+    <h1>Rock, paper, Scissors!</h1>
+  </header>
+  <div class="score-board">
+    <div id="computer-label" class="labels">
+      <h2>Computer Score:</h2>
+      <div class="computer-score">0</div>
+    </div>
+    <div id="user-label" class="labels">
+      <h2>User Score:</h2>
+      <div class="user-score">0</div>
+    </div>
+  </div>
+  <div class="result">
+    <p>paper covers rock...You have won round...</p>
+  </div>
+  <div class="options">
+    <div id="r" class="option">
+      <img src="Images/rock.png" alt="">
+    </div>
+    <div id="p" class="option">
+      <img src="Images/paper.png" alt="">
+    </div>
+    <div id="s"class="option">
+      <img src="Images/scissors.png" alt="">
+    </div> 
+  </div>
+  <p id="action-msg">Let the games begin!</p>
+  
 </body>
 </html>
