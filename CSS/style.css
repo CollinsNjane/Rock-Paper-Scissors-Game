@@ -21,7 +21,7 @@ header{
   margin: 10px ;
   padding: 10px;
 }
-.computer-score , .user-score{
+.computer-score , .user-score, .ties-score{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -29,7 +29,7 @@ header{
   font-size: 30px;
   color: #0c0032;
 }
-.result{
+.result, #finalGames, #finalWins, #finalLosses, #finalTies{
   margin: 30px;
   color: #0c0032;
   text-align: center;
