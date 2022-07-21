@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="CSS/style.css">
-  <script src = "JS/script.js"></script>
   <title>Rock, Paper Scissors!</title>
 </head>
 <body>
@@ -15,15 +14,19 @@
   <div class="score-board">
     <div id="computer-label" class="labels">
       <h2>Computer Score:</h2>
-      <div class="computer-score">0</div>
+      <div class="computer-score"><p id="compScore">0</p></div>
     </div>
     <div id="user-label" class="labels">
       <h2>User Score:</h2>
-      <div class="user-score">0</div>
+      <div class="user-score"><p id="userScore">0</p></div>
+    </div>
+    <div id="ties-label" class="labels">
+      <h2>Ties:</h2>
+      <div class="ties-score"><p id="tiesScore">0</p></div>
     </div>
   </div>
   <div class="result">
-    <p>paper covers rock...You have won round...</p>
+    <p id="resultsP">...</p>
   </div>
   <div class="options">
     <div id="r" class="option">
@@ -37,6 +40,11 @@
     </div> 
   </div>
   <p id="action-msg">Let the games begin!</p>
-  
+  <p id="finalGames">...</p>
+  <p id="finalWins">...</p>
+  <p id="finalLosses">...</p>
+  <p id="finalTies">...</p>
+
+  <script src = "JS/script.js"></script>
 </body>
 </html>
